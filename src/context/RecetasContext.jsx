@@ -28,6 +28,7 @@ export const RecetasProvider = ({ children }) => {
   return (
     <RecetasContext.Provider
       value={{
+        recetas,
         buscarRecetas,
         setConsultar,
       }}
